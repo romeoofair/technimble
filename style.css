@@ -1,0 +1,413 @@
+html,
+body,
+#jumbotron {
+	height: 100%;
+}
+
+#jumbotron img {
+	width: 25%;
+    padding-left: 10px;
+    margin-top: -10px;	
+}
+
+.navbar {
+  min-height: 50px;
+  border: 1px solid transparent;
+}
+
+#navitems li a {
+	padding: 10px;
+	margin-top: 5px;
+}
+
+nav.navbar-inverse {
+	background-image: radial-gradient(circle, #254e6a, #0b161e);
+	border: none;
+}
+
+.navbar-brand{
+	position: relative;
+	top: -5px;
+}
+
+#navitems li{
+	margin: 0 10px;
+}
+
+.navbar-toggler {
+  position: relative;
+  float: right;
+  margin-right: 15px;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 2px solid white;
+  border-radius: 4px;
+}
+
+.navbar .nav li a:hover {
+  color: #f7d700;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+#logotext{
+	color: white;
+	font-size: 1.3em;
+	position: relative;
+	top: 5px;
+}
+
+#signup1 {
+	margin-top: 9px;
+}
+
+#signup2 {
+	margin-top: 20px;
+}
+
+
+#jumbotron{
+	background-image: url(images/cover4.jpg);
+	background-position: center;
+	background-size: cover;
+	
+	height: 95%;
+	width: 93%;
+	margin: 0 auto;
+	text-shadow: 0 0 10px #000;
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	transform: scale(1.05);
+	-webkit-box-shadow: 0 18px 20px -5px #555555;
+	box-shadow: 0 18px 20px -5px #555555;
+}      
+
+#jumbotron .jumbotron-text{
+	text-align: center;
+	padding-top: 150px;
+}
+
+
+
+.testimonial {
+	background: #eee;
+}
+
+blockquote {
+	border: none;
+	margin: 0;
+	font-family: Georgia, Times, serif;
+	font-style: italic;
+	font-size: 32px;
+	color: #000;
+        text-align: center;
+}
+
+blockquote cite {
+	display: block;
+	text-align: right;
+	text-transform: uppercase;
+	font-family: Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-size: 18px;
+	font-weight: bold;
+	color: #888;
+	margin-top: 40px;
+}
+
+#jumbotron {
+	margin-bottom: -0.0px;
+}
+
+section {
+	padding: 100px;
+}
+
+
+.action-box strong,
+button.action-box strong {
+	font-size: 25.2px;
+	color: #f7d700;
+}
+
+.action-box.action-box-content,
+button.action-box.action-box-content{
+	font-size: 25.2px;
+        font weight: bold;
+}
+
+button.action-box:hover {
+	text-shadow: 0 0 10px #000;
+	cursor: pointer;
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	transform: scale(1.05);
+	-webkit-box-shadow: 0 8px 10px -5px #555555;
+	box-shadow: 0 8px 10px -5px #555555;
+}
+
+.action-box,
+button.action-box {
+	height: 120px;
+	background-size: 100% !important;
+}
+
+#event1{
+	background-image: url('images/paper.jpg');
+	width: 390px;
+	height: 234px;
+}
+
+#event2{
+	background-image: url('images/poster.jpg');
+	width: 390px;
+	height: 234px;
+}
+
+#event3{
+	background-image: url('images/roborace.jpg');
+	width: 390px;
+	height: 234px;
+}
+
+#event4{
+	background-image: url('images/Movie.jpg');
+	width: 390px;
+	height: 234px;
+}
+
+#event5{
+	background-image: url('images/game.jpg');
+	width: 390px;
+	height: 234px;
+}
+
+section .section-title {
+  font-size: 15px;
+  font-weight: normal;
+  color: #c1c6cb;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 40px;
+}
+
+#adventure button {
+		margin:20px;
+		border: none;
+}
+
+ body{
+	position: relative;
+}
+
+#sponsors {
+	background: url('images/car.jpg') top left no-repeat;
+	background-size: cover;
+	color: white;
+	text-align: center;    
+}
+
+#sponsors h2{
+	margin-bottom: 50px;
+}
+
+#sponsors .col-sm-2{
+	width: 20%;
+}
+
+#cmembers1{
+	position: relative;
+	top: 30px;
+	left: 30px;
+	text-align: left;
+	width:500px;
+}
+
+#cmembers2{
+	position: relative;
+	top: 64px;
+	left: 30px;
+	text-align: left;
+	width:500px;
+}
+
+#cmembers3{
+	position: relative;
+	top: 30px;
+	left:150px;
+	text-align: left;
+	width:350px;
+}
+
+#cmembers3 p{
+	padding: 5px 15px ;
+}
+
+.list-group-item.active{
+	background-image: radial-gradient(circle, #254e6a, #0b161e);
+	border: none;
+}
+
+.designation{
+	font-size: 0.8em;
+	position: absolute;
+	left: 300px;
+}
+
+footer{
+	height: 300px;
+	width: 100%;
+	background: #303030;
+}
+
+
+/* Signup */
+
+
+#regform{
+	width: 1200px;
+	margin: 0 auto;
+	margin-left: 92px;
+	margin-bottom: 100px;
+}
+
+#register{
+	padding: 120px 120px 70px;
+	color: white;
+	background-image: url(images/back.jpg);
+	background-size: cover;
+}
+
+#regform h3{
+	padding: 50px 15px 8px;
+	color: #3498DB;
+}
+
+.custom-select{
+	width: 100%
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#events label,#perteam label,#comment{
+	font-size: 1.2em;
+	color: #444;
+	padding-left: 12px;
+	text-indent: 15px;
+}
+
+#perteam {
+	padding: 10px;
+}
+
+#perteamname {
+	margin-left: -20px;
+}
+
+#inter{
+	margin-left: -112px;
+	margin-right: 10px;
+}
+
+#events input {
+  position: relative;
+  *overflow: hidden;
+}
+
+#events{
+	margin-bottom: -200px;
+	padding-top: 180px;
+	padding-bottom: 180px;
+}
+
+#comment{
+	margin-top: -40px;
+}
+
+#comment label{
+	margin-left: -27px;
+}
+
+#comment textarea{
+	margin-top: 40px;
+	margin-left: 20px;
+}
+
+#regform form button{
+	float: right;
+	margin-right: 10px;
+}
+
+#contact h4, #address h4 {
+	color: white;
+	padding-top: 15px;
+
+}
+
+#contact h6, #address h6 {
+	color: #eee;
+	padding-top: 10px;
+}
+
+#foot-cont .row{
+	margin-top: 2px;
+    padding-top: 10px;
+}
+
+.custom-control-indicator {
+	margin-top: 5px;
+}
+
+.modal-title{
+    text-align: center;
+	color: white;
+}
+
+div .modal-header {
+	    background-image: radial-gradient(circle, #254e6a, #0b161e);
+}
+
+.modal-title {
+	padding: 14px;
+}
+
+.modal-footer {
+	background-image: radial-gradient(circle, #254e6a, #0b161e);
+
+}
+
+#designerl {
+	margin-left: -150px;
+    margin-top: 100px
+}
+
+#desiname {
+	margin-left: -86px;
+    margin-top: -20px;
+}
+
+#designer {
+	margin-left: 50px;
+}
+
+.alert-success {
+	position: fixed;
+    top: 60px;
+    z-index: 2;
+	width: 100%;
+	text-align: center;
+}
+
+input[type=number] {
+    -moz-appearance : textfield;
+  }
+
+
